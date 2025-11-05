@@ -15,5 +15,5 @@ type Users struct {
 	Age       uint8     `json:"age"`
 	Password  string    `json:"-"`
 	BirthDay  time.Time `json:"birthday"`
-	GenderID  uint      `json:"gender_id"`
+
 }
