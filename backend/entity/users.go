@@ -16,5 +16,4 @@ type Users struct {
 	Password  string    `json:"-"`
 	BirthDay  time.Time `json:"birthday"`
 	GenderID  uint      `json:"gender_id"`
-	Gender    *Genders
 }
